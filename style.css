@@ -4,6 +4,8 @@ body {
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 1020px;
     margin: auto;
@@ -19,34 +21,54 @@ header {
 .head {
     width: 1300px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding-top: 70px;
 }
 
 .afterhead {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: auto;
 }
 
 .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 452px;
+    -ms-flex-item-align: end;
     align-self: flex-end;
     margin-left: auto;
     padding-bottom: 24px;
 }
 
 .navbar a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-shadow: -5px -5px rgba(245, 197, 5, 0.27), -10px -10px rgba(245, 197, 5, 0.27);
     box-shadow: -5px -5px rgba(245, 197, 5, 0.27), -10px -10px rgba(245, 197, 5, 0.27);
     width: 151px;
     line-height: 41px;
-    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    background: #f5c505;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -58,8 +80,9 @@ header {
 }
 
 .navbar a:nth-child(1) {
+    width: 161px;
     padding-left: 36px;
-    padding-right: 20px;
+    padding-right: 7px;
     border-right: thick solid #dcb105;
     border-right-width: 2px;
 }
@@ -109,6 +132,8 @@ header {
 
 .text-logo-foot {
     margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 29px;
     letter-spacing: 0px;
@@ -123,6 +148,8 @@ header {
 
 .logo {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: url("./assets/img/logo-main.png") no-repeat;
     padding-left: 0px;
@@ -131,21 +158,34 @@ header {
 }
 
 .logo2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 4px;
 }
 
 .whitezone {
     width: 1300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     height: 212px;
     background: url("./assets/img/white.png") no-repeat;
 }
 
 .pic-text1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -161,7 +201,12 @@ header {
 }
 
 .pic-text2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -177,7 +222,12 @@ header {
 }
 
 .pic-text3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -200,7 +250,10 @@ header {
 }
 
 .logo1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-item-align: right;
     align-self: right;
 }
 
@@ -220,6 +273,8 @@ header {
     margin: 0;
     background: url("./assets/img/yellow.png") no-repeat;
     padding: 0px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -239,13 +294,19 @@ header {
 }
 
 .yellowtv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .yellowtext2-block {
     position: relative;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: #ec9e03;
     width: 341px;
@@ -269,9 +330,13 @@ header {
     position: absolute;
     bottom: 4px;
     right: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: #ffffff;
     text-decoration: none;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
     font-weight: bolder;
     font-size: 25px;
@@ -287,6 +352,8 @@ header {
 
 .greyzone {
     width: 1300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 499px;
     margin: 0;
@@ -307,6 +374,8 @@ header {
 }
 
 .dev-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 6px;
 }
@@ -317,6 +386,8 @@ header {
 }
 
 .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 22px;
     letter-spacing: 0.25px;
@@ -382,11 +453,14 @@ header {
     width: 1300px;
     background: url("./assets/img/footer.png") no-repeat;
     margin: 0;
+    -webkit-box-shadow: -0.105px -2.998px 5px rgba(0, 0, 0, 0.75);
     box-shadow: -0.105px -2.998px 5px rgba(0, 0, 0, 0.75);
 }
 
 .player {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 33px;
     padding-left: 118px;
@@ -400,6 +474,8 @@ header {
 
 .pusk-v2 {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     bottom: 79px;
     left: 131px;
@@ -412,6 +488,8 @@ header {
 
 .pusk-v1 {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     bottom: 131px;
     left: 359px;
@@ -428,6 +506,8 @@ header {
 
 .pusk-left-v1 {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     bottom: 23px;
     left: 147px;
@@ -435,11 +515,14 @@ header {
 }
 
 .pusk-left-v1:hover {
+    -webkit-box-shadow: 0 0 5px red;
     box-shadow: 0 0 5px red;
 }
 
 .mute {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     bottom: 28px;
     right: 19px;
@@ -456,6 +539,8 @@ header {
 
 .slider-v1 {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -524,15 +609,21 @@ header {
 .twitter-block {
     position: relative;
     margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: #ec9e03;
     width: 329px;
     height: 233px;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .twitter {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     padding-top: 18px;
 }
@@ -541,6 +632,8 @@ header {
     position: absolute;
     top: 9px;
     right: 17px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-decoration: none;
     font-size: 25px;
@@ -552,7 +645,11 @@ header {
 }
 
 .slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-top: 31px;
     padding-left: 27px;
@@ -561,6 +658,8 @@ header {
 .line {
     position: relative;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 896px;
     height: 15px;
@@ -584,12 +683,21 @@ header {
 }
 
 .data {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
     justify-content: left;
     width: 113px;
     height: 86px;
     background-color: #ddb101;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -628,6 +736,8 @@ header {
     .head {
         padding-top: 0;
         position: relative;
+        background: -webkit-gradient( linear, left bottom, left top, from(#282826), to(#41413f));
+        background: -o-linear-gradient(bottom, #282826 0%, #41413f 100%);
         background: linear-gradient(0deg, #282826 0%, #41413f 100%);
         position: relative;
         z-index: 1;
@@ -640,10 +750,15 @@ header {
     .whitezone {
         position: relative;
         z-index: 10;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         background: url("/assets/img/whitezone-mobile.png");
         width: 640px;
+        -webkit-box-shadow: 0px -5px rgba(255, 255, 255, 0.4), 0px -10px rgba(255, 255, 255, 0.4);
         box-shadow: 0px -5px rgba(255, 255, 255, 0.4), 0px -10px rgba(255, 255, 255, 0.4);
         height: 174px;
     }
@@ -660,6 +775,8 @@ header {
     }
     .player {
         padding: 0;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
         width: 640px;
         height: 327px;
@@ -699,11 +816,14 @@ header {
         padding-bottom: 0px;
     }
     .navbar a {
+        -webkit-box-shadow: none;
         box-shadow: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 210px;
         line-height: 62px;
-        background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+        background: #f5c505;
         text-align: center;
         text-decoration: none;
         font-size: 20px;
@@ -749,7 +869,12 @@ header {
         width: 26px;
     }
     .pic-text1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .pic-text1 img {
@@ -771,7 +896,12 @@ header {
         text-align: center;
     }
     .pic-text2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .pic-text2 img {
@@ -794,7 +924,12 @@ header {
         text-align: center;
     }
     .pic-text3 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .pic-text3 img {
@@ -824,6 +959,8 @@ header {
         height: 480px;
         width: 640px;
         background: white;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
     .yellowtext {
@@ -831,9 +968,16 @@ header {
     }
     .yellowtv {
         width: 640px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
         justify-content: left;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
     }
     .yellowtext2-block {
@@ -887,8 +1031,14 @@ header {
         line-height: 113%;
     }
     .twitter-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
         flex-grow: 1;
         position: relative;
         background-color: #f5c507;
@@ -898,8 +1048,13 @@ header {
     }
     .twitter-form {
         width: 320px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         font-size: 13px;
         letter-spacing: 0.17px;
@@ -950,13 +1105,24 @@ header {
         padding-left: 31px;
     }
     .send-form {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
         justify-content: left;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
     }
     .send-form div {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
     .send-block form {
@@ -1004,6 +1170,8 @@ header {
         display: none;
     }
     .twitter {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
         padding-top: 18px;
         padding-left: 82px;
@@ -1016,7 +1184,10 @@ header {
         display: none;
     }
     .twitter-form {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-item-align: end;
         align-self: flex-end;
     }
     .greyzone {
@@ -1053,6 +1224,7 @@ header {
         width: 640px;
         margin: 0;
         background: #4c4c4c;
+        -webkit-box-shadow: -0.105px -2.998px 5px rgba(0, 0, 0, 0.75);
         box-shadow: -0.105px -2.998px 5px rgba(0, 0, 0, 0.75);
     }
     .container {
@@ -1069,6 +1241,8 @@ header {
     }
     .text-logo-foot {
         margin: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         font-size: 16px;
         padding-top: 4px;
